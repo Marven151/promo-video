@@ -1,0 +1,34 @@
+{
+  "business": {
+    "name": "Copperline Heating & Air",
+    "tagline": "Comfort fixed fast, priced up front.",
+    "city": "Austin, TX",
+    "phone": "(512) 555-0147",
+    "website": "copperlineair.example",
+    "established": "Est. 2011"
+  },
+  "hook": ["AC quit?", "Not for long."],
+  "services": [
+    { "title": "AC repair", "tag": "Same day", "line": "Most repairs are done the same day you call." },
+    { "title": "Furnace tune-ups", "tag": "From $89", "line": "A 21-point check before the first cold snap." },
+    { "title": "Heat pump installs", "tag": "Financing", "line": "High-efficiency systems sized to your home." },
+    { "title": "Duct cleaning", "tag": "Cleaner air", "line": "Less dust, fewer allergens, lower bills." }
+  ],
+  "cta": {
+    "headline": "Book same-day service",
+    "sub": "Upfront pricing. No overtime fees."
+  },
+  "captions": {
+    "hook": "When Austin heat hits, a broken AC can't wait.",
+    "brand": "Copperline has kept Austin homes cool since 2011.",
+    "end": "Call now and a tech can be there today."
+  },
+  "colors": {
+    "ink": "#10202E",
+    "paper": "#F2EDE4",
+    "accent": "#E8612C",
+    "onAccent": "#10202E"
+  },
+  "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"45\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"8\"/><path d=\"M20 41q7.5-9 15 0t15 0 15 0 15 0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"7\" stroke-linecap=\"round\"/><path d=\"M20 61q7.5-9 15 0t15 0 15 0 15 0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"7\" stroke-linecap=\"round\"/></svg>",
+  "disclaimer": "Sample · fictional business"
+}

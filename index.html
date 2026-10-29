@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Promo videos for local businesses</title>
+<meta name="description" content="15–20 second promo videos for small businesses, built from your logo, services and phone number. Vertical for Reels, Shorts and TikTok, wide for your website and YouTube.">
+<meta property="og:image" content="samples/hvac-copperline-poster.png">
+<style>
+  @font-face {
+    font-family: "Archivo";
+    src: url("public/fonts/Archivo-Variable.woff2") format("woff2");
+    font-weight: 100 900;
+    font-stretch: 62% 125%;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Instrument Serif";
+    src: url("public/fonts/InstrumentSerif-Italic.woff2") format("woff2");
+    font-style: italic;
+    font-display: swap;
+  }
+  :root {
+    --bg: #dcdfd8;
+    --ink: #16181b;
+    --muted: #535960;
+    --line: #b6bbb2;
+    --signal: #2346d8;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17191c;
+      --ink: #e6e8e3;
+      --muted: #9aa0a6;
+      --line: #34383d;
+      --signal: #8ea6ff;
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Archivo", system-ui, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.55;
+  }
+  main { max-width: 1200px; margin: 0 auto; padding: 56px 24px 80px; }
+  a { color: var(--signal); text-underline-offset: 3px; }
+  a:focus-visible, video:focus-visible { outline: 3px solid var(--signal); outline-offset: 3px; }
+
+  h1 {
+    font-stretch: 125%;
+    font-weight: 800;
+    font-size: clamp(2.4rem, 6.4vw, 5.6rem);
+    line-height: 0.98;
+    letter-spacing: -0.025em;
+    margin: 0 0 28px;
+    max-width: 14ch;
+  }
+  .lede { max-width: 38em; margin: 0 0 56px; font-size: 1.1875rem; }
+  .lede em { font-family: "Instrument Serif", serif; font-size: 1.3em; line-height: 1; }
+
+  .sample { border-top: 2px solid var(--ink); padding-top: 20px; margin-bottom: 64px; }
+  .sample h2 {
+    font-stretch: 100%;
+    font-weight: 700;
+    font-size: 1.375rem;
+    margin: 0;
+  }
+  .sample p { margin: 4px 0 20px; color: var(--muted); max-width: 46em; }
+  .reels {
+    display: grid;
+    grid-template-columns: minmax(0, 9fr) minmax(0, 32fr);
+    gap: 20px;
+    align-items: end;
+  }
+  .nowrap { white-space: nowrap; }
+  figure { margin: 0; }
+  video { display: block; width: 100%; height: auto; background: #000; border-radius: 4px; }
+  figcaption { font-size: 0.875rem; color: var(--muted); margin-top: 8px; }
+
+  .offer {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0 32px;
+    border-top: 2px solid var(--ink);
+    padding-top: 20px;
+  }
+  .offer h3 { font-size: 1rem; font-weight: 700; margin: 0 0 6px; }
+  .offer p { margin: 0 0 28px; }
+  .price {
+    font-family: "Instrument Serif", serif;
+    font-style: italic;
+    font-size: 2.6rem;
+    line-height: 1;
+  }
+  footer { margin-top: 24px; color: var(--muted); font-size: 0.9375rem; max-width: 46em; }
+
+  @media (max-width: 760px) {
+    main { padding: 32px 16px 56px; }
+    .reels { grid-template-columns: 1fr; }
+    .reels figure:first-child { width: min(72%, 320px); }
+    .offer { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Short promo videos for local businesses</h1>
+  <p class="lede">
+    Send your logo, your services and your phone number. Three days later you get a
+    <span class="nowrap">15–20</span> second ad cut two ways: vertical for Reels, Shorts and TikTok, and wide for your
+    website and YouTube. Bold type, moving captions so it works with the sound off, and your
+    number on the last frame. <em>From $150.</em>
+  </p>
+
+  <section class="sample" aria-labelledby="hvac">
+    <h2 id="hvac">Copperline Heating &amp; Air</h2>
+    <p>Sample for a fictional HVAC company in Austin, TX. Four services, 18 seconds.</p>
+    <div class="reels">
+      <figure>
+        <video src="samples/hvac-copperline-vertical.mp4" poster="samples/hvac-copperline-poster-vertical.jpg"
+          autoplay muted loop playsinline controls preload="auto"></video>
+        <figcaption>9:16, 1080×1920</figcaption>
+      </figure>
+      <figure>
+        <video src="samples/hvac-copperline-wide.mp4" poster="samples/hvac-copperline-poster.png"
+          autoplay muted loop playsinline controls preload="auto"></video>
+        <figcaption>16:9, 1920×1080</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="sample" aria-labelledby="dental">
+    <h2 id="dental">Harbor Light Dental</h2>
+    <p>Same template, different client: a fictional dental practice in Portland, ME.</p>
+    <div class="reels">
+      <figure>
+        <video src="samples/dental-harborlight-vertical.mp4" poster="samples/dental-harborlight-poster-vertical.jpg"
+          muted loop playsinline controls preload="metadata"></video>
+        <figcaption>9:16, 1080×1920</figcaption>
+      </figure>
+      <figure>
+        <video src="samples/dental-harborlight-wide.mp4" poster="samples/dental-harborlight-poster.png"
+          muted loop playsinline controls preload="metadata"></video>
+        <figcaption>16:9, 1920×1080</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="offer" aria-label="The offer">
+    <div>
+      <h3>You send</h3>
+      <p>Logo, brand colors, 3–4 services with one line each, phone number, city.</p>
+    </div>
+    <div>
+      <h3>You get</h3>
+      <p>Two MP4 files ready to upload, plus a poster image for your website.</p>
+    </div>
+    <div>
+      <h3>Price</h3>
+      <p><span class="price">$150–$250</span></p>
+    </div>
+    <div>
+      <h3>Delivery</h3>
+      <p>3 days, one round of text changes included.</p>
+    </div>
+  </section>
+
+  <footer>
+    Both businesses are fictional and the 555 phone numbers are not real.
+    Want one for your business? <a href="https://github.com/Marven151/promo-video/issues/new?title=Promo%20video%20request">Open a request</a>
+    or see <a href="https://github.com/Marven151/promo-video">how the videos are made</a>.
+  </footer>
+</main>
+</body>
+</html>

@@ -1,7 +1,7 @@
 {
   "name": "promo-video",
   "version": "1.0.0",
-  "description": "My Remotion video",
+  "description": "Data-driven 15-20 s promo videos for small businesses, built with Remotion",
   "repository": {},
   "license": "UNLICENSED",
   "engines": {
@@ -9,10 +9,16 @@
   },
   "private": true,
   "dependencies": {
+    "@remotion/captions": "4.0.539",
     "@remotion/cli": "4.0.539",
+    "@remotion/fonts": "4.0.539",
+    "@remotion/media": "4.0.539",
+    "@remotion/transitions": "4.0.539",
+    "@remotion/zod-types": "4.0.539",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "remotion": "4.0.539"
+    "remotion": "4.0.539",
+    "zod": "4.5.4"
   },
   "devDependencies": {
     "@remotion/eslint-config-flat": "4.0.539",
@@ -26,7 +32,9 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "render": "./render.sh",
+    "render:samples": "./render.sh props/hvac-copperline.json hvac-copperline && ./render.sh props/dental-harborlight.json dental-harborlight"
   },
   "allowScripts": {
     "esbuild": false

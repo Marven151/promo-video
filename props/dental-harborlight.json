@@ -1,0 +1,34 @@
+{
+  "business": {
+    "name": "Harbor Light Dental",
+    "tagline": "Gentle care for the whole family.",
+    "city": "Portland, ME",
+    "phone": "(207) 555-0182",
+    "website": "harborlightdental.example",
+    "established": "Est. 2016"
+  },
+  "hook": ["Dread the", "dentist?", "Not here."],
+  "services": [
+    { "title": "Cleanings & exams", "tag": "New patients", "line": "Thorough cleanings, and nobody lectures you." },
+    { "title": "Clear aligners", "tag": "Free consult", "line": "Straighter teeth without metal braces." },
+    { "title": "Teeth whitening", "tag": "One visit", "line": "A brighter smile in a single appointment." },
+    { "title": "Emergency visits", "tag": "Same week", "line": "Toothache? We hold open slots every day." }
+  ],
+  "cta": {
+    "headline": "Book your first visit",
+    "sub": "Most insurance accepted. Evening hours."
+  },
+  "captions": {
+    "hook": "Most people put off the dentist. We make it easy.",
+    "brand": "Harbor Light Dental cares for Portland families.",
+    "end": "Book online or call. New patients welcome."
+  },
+  "colors": {
+    "ink": "#0F2F33",
+    "paper": "#F4F1EA",
+    "accent": "#7ED6BF",
+    "onAccent": "#0F2F33"
+  },
+  "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><rect x=\"6\" y=\"6\" width=\"88\" height=\"88\" rx=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"8\"/><path d=\"M28 55q22 22 44 0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"8\" stroke-linecap=\"round\"/><circle cx=\"50\" cy=\"34\" r=\"7\" fill=\"currentColor\"/></svg>",
+  "disclaimer": "Sample · fictional business"
+}
